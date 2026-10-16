@@ -1,0 +1,31 @@
+{
+  "name": "star-rift-strike",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node tests/logic.mjs",
+    "test:smoke": "node tests/smoke.mjs",
+    "test:laser": "node tests/laser.mjs",
+    "test:damage": "node tests/damage.mjs",
+    "test:responsive": "node tests/responsive.mjs",
+    "test:graphics": "node tests/graphics.mjs",
+    "test:explosions": "node tests/explosions.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "test:presentation": "node tests/presentation.mjs",
+    "test:controls": "node tests/controls.mjs",
+    "test:boss-warning": "node tests/boss-warning.mjs",
+    "test:plumes": "node tests/plumes.mjs",
+    "test:feedback": "node tests/feedback.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "playwright": "1.55.1",
+    "vite": "7.3.6"
+  }
+}
