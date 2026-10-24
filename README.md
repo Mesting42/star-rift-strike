@@ -154,3 +154,14 @@ Boss 预警专项测试从已解锁的独立航线场景实际点击 Boss 节点
 浏览器测试默认使用本机 Chrome，可通过 `CHROME_PATH` 指定其他 Chromium 浏览器路径，通过 `GAME_URL` 指定运行地址。完整游玩测试需要数分钟。
 
 游戏保留 `window.__STAR_RIFT__.snapshot()` 诊断入口用于读取运行信息；正式界面没有调试菜单。
+
+<!-- pixel-pier-game-listing:start -->
+## Game listing / 游戏展示
+
+- **Game developer / 游戏开发者:** Mest ([@Mesting42](https://github.com/Mesting42))
+- **Pixel Pier listing / 游戏展示页面:** [Star Rift Strike](https://riverglint.link/games/star-rift-strike/)
+
+This game is listed on Pixel Pier with a play entry and game guide. This link identifies a game-development and listing relationship; it does not identify the developer as the website operator or operating entity.
+
+本游戏在 Pixel Pier 展示，并提供游玩入口与游戏指南。此链接仅表示游戏开发与展示关联，不代表开发者是该网站的运营者或运营主体。
+<!-- pixel-pier-game-listing:end -->
